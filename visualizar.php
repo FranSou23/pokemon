@@ -24,6 +24,7 @@ endwhile;
         <h4><?=$tipo;?></h4>
     </div>
 </div>
+<a href="admin.php">Voltar</a>
 <?php
 mysqli_close($conexao);
 include "rodape.php";
