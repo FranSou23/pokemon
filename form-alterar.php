@@ -29,7 +29,7 @@ endwhile;
     <br> <br>
     FOTO: <input type="file" name="foto" class="form-control">
     <br>
-    <img src="img/<?=$foto?>" alt="$foto?>" class="img-fluid">
+    <img src="img/<?=$foto?>" alt="<?=$foto?>" class="img-fluid">
     <br>
     <button class="btn btn-primary" type="submit">SALVAR POKEMON</button>
 
